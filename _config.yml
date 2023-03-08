@@ -1,0 +1,21 @@
+# Website specifications
+title: "SBAC-PAD 2023" # Website's name
+description: 35th IEEE International Symposium on Computer Architecture and High Performance Computing
+url: "https://cradrs.github.io" # Website's base hostname and protocol (e.g.: http://example.com)
+baseurl: "/sbacpad2023" # Website's subpath (e.g.: /blog)
+
+# Website collections
+collections_dir: collections
+collections:
+    news:
+    keynote_speakers:
+        sort_by: order
+
+# Website SASS settings
+sass:
+    sass_dir: _sass
+    style: compressed
+
+# Jekyll plugins
+plugins:
+    - jekyll-seo-tag

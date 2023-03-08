@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>{{ page.title }} - {{ site.title }}</title>
+        <link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}"> {% seo %}
+    </head>
+    <body>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="{{ site.base_url }}">
+                    <img src="assets/img/sbac_logo.png" class="img-fluid" alt="SBAC-PAD 2023 Logo" />
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav text-center">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="{{ site.base_url }}/">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ site.base_url }}/#important_dates">Important Dates</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ site.base_url }}/#submission_instructions"
+                                >Submission Instructions</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ site.base_url }}/program/">Program</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ site.base_url }}/committee/">Committee</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ site.base_url }}/travel_info/">Travel Info</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <header class="text-center">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-8 offset-md-2 text-center">
+                        <h1>SBAC-PAD 2023</h1>
+                        <h2>
+                            35th IEEE International Symposium on Computer Architecture and High Performance Computing
+                        </h2>
+                        <h3><span>Month XX-YY, 2023 — Porto Alegre, Brazil</span></h3>
+                    </div>
+                </div>
+            </div>
+        </header>
+        {{ content }}
+        <footer class="text-center">
+            <a class="btn btn-social" href="https://www.instagram.com/sbacpad2023/" target="_blank">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <a class="btn btn-social" href="https://www.facebook.com/sbacpad2023/" target="_blank">
+                <i class="bi bi-facebook"></i>
+            </a>
+            <br /><br />
+            <h1>SBAC-PAD 2023</h1>
+            <h2>All Rights Reserved</h2>
+        </footer>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

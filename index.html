@@ -1,0 +1,268 @@
+---
+layout: default
+title: "Home"
+---
+
+<div class="container-fluid">
+    <div class="row" id="news">
+        <div class="col-md-10 offset-md-1">
+            <section>
+                <h1>Latest News</h1>
+
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Date</th>
+                            <th scope="col">News</th>
+                        </tr>
+                    </thead>
+                    {% assign news = site.news | reverse %}
+                    <tbody>
+                        {% for news_record in news %}
+                        <tr>
+                            <td>{{ news_record.date | date_to_long_string }}</td>
+                            <td>{{ news_record.text }}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </section>
+        </div>
+    </div>
+    <div class="row" id="about_the_conference">
+        <div class="col-md-10 offset-md-1">
+            <section>
+                <h1>About SBAC-PAD</h1>
+                <blockquote class="blockquote">
+                    <p>
+                        The
+                        <strong
+                            >IEEE International Symposium on Computer Architecture and High-Performance Computing
+                            (SBAC-PAD)</strong
+                        >
+                        is an annual conference series held since 1987. The conference presents the latest developments
+                        in High-Performance Computing and Computer Architecture and exciting trends in Parallel and
+                        Distributed Systems.
+                    </p>
+                    <p>
+                        SBAC-PAD has a solid international reputation, with regular submissions from dozens of countries
+                        yearly. The conference is also known for its highly competitive and rigorous review process
+                        (recent acceptance rates around 35%), highlighting its commitment to ensuring that
+                        <strong>showcased research is highly innovative and impactful</strong>.
+                    </p>
+                </blockquote>
+            </section>
+        </div>
+    </div>
+    <section>
+        <div class="row" id="about_host_city">
+            <div class="col-md-5 offset-md-1">
+                <h1 class="text-uppercase">Porto Alegre welcomes SBAC-PAD 2023</h1>
+                <p>
+                    In 2023, SBAC-PAD will be held at the Pontifical Catholic University of Rio Grande do Sul (PUCRS) in
+                    Porto Alegre, Brazil.
+                </p>
+                <p>
+                    Porto Alegre is the capital of the state of Rio Grande do Sul and is known for its
+                    <strong>rich culture and history, beautiful parks, and vibrant nightlife</strong>. Visitors can
+                    enjoy exploring the historic city center, the impressive Guaíba Lake, and the city's renowned
+                    barbecue.
+                </p>
+                <p>
+                    Regarding the host university, PUCRS, attendees of SBAC-PAD can expect a world-class infrastructure,
+                    complete with modern classrooms, research laboratories, and plenty of outdoor spaces. Moreover, the
+                    university offers
+                    <strong
+                        >extensive on-campus services, including multiple restaurants, cafes, lounges, and convenient
+                        amenities, such as bank agencies</strong
+                    >.
+                </p>
+            </div>
+            <div class="col-md-5">
+                <img
+                    src="assets/img/portoalegre.jpg"
+                    alt="Porto Alegre city"
+                    class="img-fluid img-thumbnail float-start"
+                />
+            </div>
+        </div>
+    </section>
+    <div class="row" id="aims_and_scope">
+        <div class="col-md-10 offset-md-1">
+            <section>
+                <h1>Aims and Scope</h1>
+                <p>
+                    Authors are invited to submit manuscripts on a wide range of high-performance and distributed
+                    computing areas. Topics of interest include (but are not limited to):
+                </p>
+
+                <ul>
+                    <li>Application-specific systems</li>
+                    <li>
+                        Architecture and programming support for emerging domains (Big Data, Deep Learning, Machine
+                        learning, Cognitive Systems)
+                    </li>
+                    <li>Benchmarking, performance measurements, and analysis</li>
+                    <li>Cloud, cluster, and edge/fog computing systems</li>
+                    <li>Embedded and pervasive systems</li>
+                    <li>GPUs, FPGAs and accelerator architectures</li>
+                    <li>Languages, compilers, and tools for parallel and distributed programming</li>
+                    <li>Modeling and simulation methodology</li>
+                    <li>Operating systems and virtualization</li>
+                    <li>Parallel and distributed systems, algorithms, and applications</li>
+                    <li>Power and energy-efficient systems</li>
+                    <li>Processor, cache, memory, storage, and network architecture</li>
+                    <li>Real-world applications and case studies</li>
+                    <li>Reconfigurable, resilient and fault-tolerant systems</li>
+                </ul>
+            </section>
+        </div>
+    </div>
+    <section>
+        <div class="row" id="important_dates">
+            <div class="col-md-5 offset-md-1">
+                <h1>Important Dates</h1>
+
+                <ul>
+                    <li><strong>Deadline for paper submission:</strong> Month Day, 2023</li>
+                    <li><strong>Deadline for workshop proposal submission:</strong> Month Day, 2023</li>
+                </ul>
+
+                <ul>
+                    <li><strong>Paper acceptance notification:</strong> Month Day, 2023</li>
+                    <li><strong>Workshop proposal acceptance notification:</strong> Month Day, 2023</li>
+                </ul>
+
+                <ul>
+                    <li><strong>Author registration:</strong> Month Day, 2023</li>
+                    <li><strong>Non-author registration (Early Fee):</strong> Month Day, 2023</li>
+                    <li><strong>Non-author registration (Late Fee):</strong> Month Day, 2023</li>
+                </ul>
+
+                <p>
+                    <span><b>Note:</b> All dates refer to AOE time, i.e. "Anywhere on Earth"</span>
+                </p>
+            </div>
+            <div class="col-md-5">
+                <img
+                    src="assets/img/schedule.jpg"
+                    alt="Porto Alegre city"
+                    class="img-fluid img-thumbnail float-start"
+                />
+            </div>
+        </div>
+    </section>
+    <div class="row" id="submission_instructions">
+        <section>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-10 offset-md-1">
+                        <h1>Submission Instructions</h1>
+                    </div>
+                </div>
+                <div class="row" id="research_paper_submission">
+                    <div class="col-md-5 offset-md-1">
+                        <h2>Research Papers</h2>
+                        <p>
+                            Research papers submitted to SBAC-PAD 2023 should not exceed 8 pages in the IEEE Conference
+                            proceedings format <small>(IEEEtran, double-column, 10pt)</small>.
+                        </p>
+                        <p>
+                            Submissions will be managed through EasyChair (see link below), where authors must upload
+                            their PDF manuscripts alongside complementary information about the paper, authors, and
+                            proper conference tracks. Please note that the submission period will open on Month Day.
+                        </p>
+
+                        <p>
+                            <b>Submission Link:</b>
+                            <a href="https://easychair.org/conferences/?conf=sbacpad2023" target="_blank"
+                                >https://easychair.org/conferences/?conf=sbacpad2023</a
+                            >
+                        </p>
+
+                        <h3>Other Submission Guidelines:</h3>
+
+                        <p>
+                            <b>Double-blind review:</b> submitted papers should not contain authors’ names and
+                            affiliations, which must be replaced with the string “omitted for blind review”.
+                        </p>
+                        <p>
+                            <b>Publication:</b> the camera-ready submission instructions will be announced after the
+                            acceptance notifications. Authors of accepted papers are expected to register and present
+                            their papers at the conference.
+                        </p>
+                    </div>
+                    <div class="col-md-5">
+                        <h2>Workshop Proposals</h2>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, debitis? Impedit sunt
+                            architecto quidem, dolores hic placeat eligendi est, saepe ab accusamus eum quae modi, atque
+                            nobis magni quaerat dicta.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam inventore officia molestias
+                            corrupti fugiat delectus odio, id porro dolorum aut sint alias debitis quas architecto ipsam
+                            perspiciatis enim eveniet repudiandae.
+                        </p>
+
+                        <p>
+                            <b>Submission Link:</b>
+                            <a href="https://easychair.org/conferences/?conf=sbacpad2023" target="_blank"
+                                >https://easychair.org/conferences/?conf=sbacpad2023</a
+                            >
+                        </p>
+
+                        <h3>Other Submission Guidelines:</h3>
+
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae dolorem, dolorum iusto earum
+                            est tenetur, expedita, repudiandae error odio a maiores! Eos corrupti facere quas velit ad,
+                            obcaecati ut qui?
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti rem consequuntur nisi
+                            saepe tempore eum iste nostrum voluptas temporibus vitae, harum omnis blanditiis architecto,
+                            culpa consectetur debitis accusantium autem adipisci!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="row" id="keynote_speakers">
+        <section>
+            <div class="col-md-10 offset-md-1">
+                <h1>Keynote Speakers</h1>
+
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. At necessitatibus ex, expedita quia in
+                    assumenda adipisci illo commodi rem sequi laboriosam atque quidem tempore quasi. Reprehenderit porro
+                    aliquid veniam sed? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+
+                <div class="container-fluid">
+                    <div class="row">
+                        {% for speaker in site.keynote_speakers %}
+                        <div class="col-md-4">
+                            <div
+                                class="keynote_speaker"
+                                style="
+                                    background: url(assets/img/{{speaker.photo}});
+                                    background-size: cover;
+                                    background-position: center;
+                                    background-repeat: no-repeat;
+                                    background-blend-mode: multiply;
+                                    background-color: #c9c9c9;
+                                "
+                            >
+                                <h2>{{ speaker.name }}</h2>
+                                <h3>{{ speaker.affiliation }}</h3>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
