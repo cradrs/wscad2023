@@ -1,4 +1,4 @@
 ---
-date: 2023/01/25
-text: Lorem ipsum dolor sit amet consectetur adipisicing elit 1
+date: 2023/03/08
+text: Website is online!
 ---
