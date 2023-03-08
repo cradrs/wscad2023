@@ -10,8 +10,12 @@
     <body>
         <nav class="navbar fixed-top navbar-expand-lg navbar-light">
             <div class="container">
-                <a class="navbar-brand" href="{{ site.base_url }}">
-                    <img src="assets/img/sbac_logo.png" class="img-fluid" alt="SBAC-PAD 2023 Logo" />
+                <a class="navbar-brand" href="{{ site.final_url }}">
+                    <img
+                        src="{{ site.final_url }}/assets/img/sbac_logo.png"
+                        class="img-fluid"
+                        alt="SBAC-PAD 2023 Logo"
+                    />
                 </a>
                 <button
                     class="navbar-toggler"
@@ -27,24 +31,24 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul class="navbar-nav text-center">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="{{ site.base_url }}/">Home</a>
+                            <a class="nav-link" aria-current="page" href="{{ site.final_url }}">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ site.base_url }}/#important_dates">Important Dates</a>
+                            <a class="nav-link" href="{{ site.final_url }}/#important_dates">Important Dates</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ site.base_url }}/#submission_instructions"
+                            <a class="nav-link" href="{{ site.final_url }}/#submission_instructions"
                                 >Submission Instructions</a
                             >
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ site.base_url }}/program/">Program</a>
+                            <a class="nav-link" href="{{ site.final_url }}/program/">Program</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ site.base_url }}/committee/">Committee</a>
+                            <a class="nav-link" href="{{ site.final_url }}/committee/">Committee</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ site.base_url }}/travel_info/">Travel Info</a>
+                            <a class="nav-link" href="{{ site.final_url }}/travel_info/">Travel Info</a>
                         </li>
                     </ul>
                 </div>
