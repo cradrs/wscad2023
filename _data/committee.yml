@@ -1,0 +1,59 @@
+committees:
+  - name: "Organizing Committee"
+    subcommittees:
+      - name: "General Chairs"
+        people:
+          - name: "Tiago C. Ferreto"
+            institution: "PUCRS, Brazil"
+          - name: "Dalvan J. Griebler"
+            institution: "PUCRS, Brazil"
+          - name: "César A. F. De Rose"
+            institution: "PUCRS, Brazil"
+      - name: "Program Chairs"
+        people:
+          - name: "Vinod Rebello"
+            institution: "UFF, Brazil"
+          - name: "Jay Lofstead"
+            institution: "Sandia National Laboratories, USA"
+      - name: "Workshop Chairs"
+        people:
+          - name: "Antonio Carlos S. Beck Filho"
+            institution: "UFRGS, Brazil"
+      - name: "Production & Publication Chair"
+        people:
+          - name: "Márcio Castro"
+            institution: "UFSC, Brazil"
+      - name: "Finance & Industry Chairs"
+        people:
+          -
+      - name: "Publicity Chairs"
+        people:
+          - name: "Carla Osthofd"
+            institution: "LNCC, Brazil"
+      - name: "Local Organization"
+        people:
+          - name: "Antonio C. S. Beck Filho"
+            institution: "UFRGS, Brazil"
+          - name: "Arthur Francisco Lorenzon"
+            institution: "UFRGS, Brazil"
+          - name: "Avelino F. Zorzo"
+            institution: "PUCRS, Brazil"
+          - name: "Luiz G. Fernandes"
+            institution: "PUCRS, Brazil"
+          - name: "Philippe O. A. Navaux"
+            institution: "UFRGS, Brazil"
+  - name: "Program Committee"
+    subcommittees:
+      - name: "Program Chairs"
+        people:
+          - name: "Vinod Rebello"
+            institution: "UFF, Brazil"
+          - name: "Jay Lofstead"
+            institution: "Sandia National Laboratories, USA"
+      - name: "Track Chairs"
+        tracks:
+          - name: "Computer Architecture"
+          - name: "Networking and Distributed Systems"
+          - name: "Parallel Applications and Algorithms"
+          - name: "Performance Evaluation"
+          - name: "System Software"

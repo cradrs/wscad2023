@@ -4,82 +4,35 @@ title: "Committees"
 permalink: /committee/
 ---
 
-<br /><br /><br /><br />
-
-<h1 class="text-center">Organizing Committee</h1>
-<br />
-<h3>General Chairs<h3>
-<br />
-<UL>
-<LI>Tiago C. Ferreto (PUCRS, Brazil)</LI>
-<LI>Dalvan J. Griebler (PUCRS, Brazil)</LI>
-<LI>César A. F. De Rose (PUCRS, Brazil)</LI>
-</UL>
-<br />  
-<h3>Programm Chairs<h3>
-<br />
-<UL>
-<LI>Vinod Rebello (UFF, Brazil)</LI>
-<LI>Jay Lofstead (Sandia National Laboratories, USA)</LI>
-</UL>
-<br /> 
-<h3>Workshop Chairs<h3>
-<br />  
-Antonio Carlos S. Beck Filho (UFRGS, Brazil)
-<br />   
-<h3>Production & Publication Chair<h3>
-<br />  
-Márcio Castro (UFSC, Brazil)
-<br /> 
-<h3>Finance & Industry Chairs<h3>
-<br /> 
-<h3>Publicity Chairs<h3>
-<br />
-Carla Osthofd (LNCC, Brazil)
-<br />   
-<h3>Local Organization<h3>
-<br />
-<UL>
-<LI>Antonio C. S. Beck Filho (UFRGS, Brazil)</LI>
-<LI>Arthur Francisco Lorenzon (UFRGS, Brazil)</LI>
-<LI>Avelino F. Zorzo (PUCRS, Brazil)</LI>
-<LI>Luiz G. Fernandes (PUCRS, Brazil)</LI>
-<LI>Philippe O. A. Navaux (UFRGS, Brazil)</LI>
-</UL>
-<br /><br />
-<h1 class="text-center">Programm Committee</h1>
-<br />
-<h3>Program Chairs<h3>
-<br />
-<UL>
-<LI>Vinod Rebello (UFF, Brazil)</LI>
-<LI>Jay Lofstead (Sandia National Laboratories, USA)</LI>
-</UL>
-<br /> 
-<h3>Track Chairs<h3>
-<br />
-<UL>
-<LI>Computer Architecture: TBD</LI>
-<LI>Networking and Distributed Systems: TBD</LI>
-<LI>Parallel Applications and Algorithms: TBD</LI>
-<LI>Performance Evaluation: TBD</LI>
-<LI>System Software: TBD</LI>
-</UL>
-<h3>Program Committee Members<h3>
-
-Computer Architecture
-
-
-Networking and Distributed Systems
-
-
-Parallel Applications and Algorithms
-
-
-Performance Evaluation
-
-
-System Software
-
-
-<br /><br /><br /><br />
+<div class="container-fluid">
+    <h1 class="p-4 text-center">Committee</h1>
+    {% for committee in site.data.committee.committees %}
+        <h2 class="p-2 text-center">{{ committee.name }}</h2>
+        {% for subcommittee in committee.subcommittees %}
+            <div class="row">
+                <div class="col-md-10 offset-md-1">
+                    <h4>{{ subcommittee.name }}</h4>
+                    <ul>
+                        {% if subcommittee.people %}
+                            {% for person in subcommittee.people %}
+                                {% if person.name %}
+                                    <li>{{ person.name }} ({{ person.institution }})</li>
+                                {% else %}
+                                    <li>TBD</li>
+                                {% endif %}
+                            {% endfor %}
+                        {% else %}
+                            {% for track in subcommittee.tracks %}
+                                {% if track.responsible_name %}
+                                    <li>{{ track.name }}: {{ track.responsible_name }} ({{ track.responsible_institution }})</li>
+                                {% else %}
+                                    <li>{{ track.name }}: TBD</li>
+                                {% endif %}
+                            {% endfor %}
+                        {% endif %}
+                    </ul>
+                </div>
+            </div>
+        {% endfor %}
+    {% endfor %}
+</div>
