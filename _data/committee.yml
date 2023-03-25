@@ -37,24 +37,3 @@ committees:
             institution: "Mackenzie"
           - name: "Roland Teodorowitsch"
             institution: "PUCRS"
-      # - name: "Coordenação dos Minicursos"
-      #   people:
-      #     - name: "TBD"
-      #       institution: "TBD"
-      #     - name: "TBD"
-      #       institution: "TBD"
-  # - name: "Program Committee"
-  #   subcommittees:
-  #     - name: "Program Chairs"
-  #       people:
-  #         - name: "Vinod Rebello"
-  #           institution: "UFF, Brazil"
-  #         - name: "Jay Lofstead"
-  #           institution: "Sandia National Laboratories, USA"
-  #     - name: "Track Chairs"
-  #       tracks:
-  #         - name: "Computer Architecture"
-  #         - name: "Networking and Distributed Systems"
-  #         - name: "Parallel Applications and Algorithms"
-  #         - name: "Performance Evaluation"
-  #         - name: "System Software"

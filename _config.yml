@@ -4,6 +4,7 @@ description: XXIV Simpósio em Sistemas Computacionais de Alto Desempenho
 url: "https://cradrs.github.io" # Website's base hostname and protocol (e.g.: http://example.com)
 baseurl: "/wscad2023" # Website's subpath (e.g.: /blog)
 final_url: https://cradrs.github.io/wscad2023
+encoding: UTF-8
 
 # Website collections
 collections_dir: collections
