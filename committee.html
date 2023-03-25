@@ -1,13 +1,13 @@
 ---
 layout: default
-title: "Committees"
+title: "Comitês"
 permalink: /committee/
 ---
 
 <div class="container-fluid">
-    <h1 class="p-4 text-center">Committee</h1>
+    <h1 class="p-4 text-center">Comitês</h1>
     {% for committee in site.data.committee.committees %}
-        <h2 class="p-2 text-center">{{ committee.name }}</h2>
+        <!-- <h2 class="p-2 text-center">{{ committee.name }}</h2> -->
         {% for subcommittee in committee.subcommittees %}
             <div class="row">
                 <div class="col-md-10 offset-md-1">

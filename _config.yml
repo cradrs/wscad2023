@@ -1,9 +1,9 @@
 # Website specifications
-title: "SBAC-PAD 2023" # Website's name
-description: 35th IEEE International Symposium on Computer Architecture and High Performance Computing
+title: "WSCAD 2023" # Website's name
+description: XXIV Simpósio em Sistemas Computacionais de Alto Desempenho
 url: "https://cradrs.github.io" # Website's base hostname and protocol (e.g.: http://example.com)
-baseurl: "/sbacpad2023" # Website's subpath (e.g.: /blog)
-final_url: https://cradrs.github.io/sbacpad2023
+baseurl: "/wscad2023" # Website's subpath (e.g.: /blog)
+final_url: https://cradrs.github.io/wscad2023
 
 # Website collections
 collections_dir: collections
