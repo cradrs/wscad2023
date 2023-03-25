@@ -3,7 +3,7 @@ committees:
     subcommittees:
       - name: "General Chairs"
         people:
-          - name: "Tiago C. Ferreto"
+          - name: "Tiago Ferreto"
             institution: "PUCRS, Brazil"
           - name: "Dalvan J. Griebler"
             institution: "PUCRS, Brazil"
@@ -19,13 +19,15 @@ committees:
         people:
           - name: "Antonio Carlos S. Beck Filho"
             institution: "UFRGS, Brazil"
+          - name: "Arthur Francisco Lorenzon"
+            institution: "UFRGS, Brazil"
       - name: "Production & Publication Chair"
         people:
           - name: "Márcio Castro"
             institution: "UFSC, Brazil"
-      - name: "Finance & Industry Chairs"
-        people:
-          -
+#       - name: "Finance & Industry Chairs"
+#         people:
+#           -
       - name: "Publicity Chairs"
         people:
           - name: "Carla Osthofd"
