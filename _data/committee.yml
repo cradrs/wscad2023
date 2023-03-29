@@ -31,16 +31,16 @@ committees:
             institution: "PUC Minas"
           - name: "Ricardo Menotti"
             institution: "UFSCAR"
-      - name: "Coordenação da Maratona de Programação Paralela"
-        people:
-          - name: "Calebe de Paula Bianchini"
-            institution: "Mackenzie"
-          - name: "Roland Teodorowitsch"
-            institution: "PUCRS"
       - name: "Coordenação dos Minicursos"
         people:
           - name: "Edward David Moreno Ordonez"
             institution: "UFS"
           - name: "Kalinka Regina Lucas Jaquie Castelo Branco"
             institution: "USP"
+      - name: "Coordenação da Maratona de Programação Paralela"
+        people:
+          - name: "Calebe de Paula Bianchini"
+            institution: "Mackenzie"
+          - name: "Roland Teodorowitsch"
+            institution: "PUCRS"
       
