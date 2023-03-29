@@ -37,3 +37,10 @@ committees:
             institution: "Mackenzie"
           - name: "Roland Teodorowitsch"
             institution: "PUCRS"
+      - name: "Coordenação dos Minicursos"
+        people:
+          - name: "Edward David Moreno Ordonez"
+            institution: "UFS"
+          - name: "Kalinka Regina Lucas Jaquie Castelo Branco"
+            institution: "USP"
+      
