@@ -3,16 +3,18 @@ committees:
     subcommittees:
       - name: "Coordenação Geral"
         people:
+          - name: "Tiago Ferreto"
+            institution: "PUCRS"
+          - name: "Dalvan Griebler"
+            institution: "PUCRS"
+          - name: "César A. F. De Rose"
+            institution: "PUCRS"
+      - name: "Coordenação do Comitê de Programa"
+        people:
           - name: "Hermes Senger"
             institution: "UFSCAR"
           - name: "Henrique Cota de Freitas"
             institution: "PUC Minas"
-      - name: "Coordenação do Comitê de Programa"
-        people:
-          - name: "Adenauer Correa Yamin"
-            institution: "UCPEL e UFPEL"
-          - name: "Samuel Xavier de Souza"
-            institution: "UFRN"
       - name: "Coordenação do Workshop de Iniciação Científica (WSCAD-WIC)"
         people:
           - name: "Marco Antonio Zanata Alves"
