@@ -52,4 +52,34 @@ header {
             border-radius: 4rem;
         }
     }
+    #sbc_logo {
+        a {
+            color: white;
+            text-decoration: none;
+
+            position: absolute;
+            left: 20px;
+            top: 90px;
+
+            img {
+                width: auto;
+            }
+
+            @media (max-width: 768px) {
+                span {
+                    font-size: 0.75rem
+                }
+
+                img {
+                    max-height: 90px;
+                }
+            }
+
+            @media (min-width: 769px) {
+                img {
+                    max-height: 120px;
+                }
+            }
+        }
+    }
 }
