@@ -59,7 +59,7 @@ permalink: /program/
                             </p>
                         </div>
                         {% for activity in block.activities %}
-                        <div class="col program_activity {{activity.type}}">
+                        <div class="col text-center program_activity {{activity.type}}">
                             {% if activity.url != "" %}
                             <a href="{{activity.url}}" class="activity_title">
                                 <p class="activity_title">
@@ -67,7 +67,7 @@ permalink: /program/
                                 </p>
                             </a>
                             {% else %}
-                            <p class="activity_title">
+                            <p class="activity_title text-center">
                                 {{ activity.title }}
                             </p>
                             {% endif %}
@@ -80,19 +80,23 @@ permalink: /program/
                 <br><br>
                 <div class="container">
                     <h2 class="text-center">Detalhes</h2>
+                    <br>
                     {% for block in day.blocks %}
                         {% for activity in block.activities %}
                             {% if activity.type == "tutorial" %}
                                 <h3 id="{{activity.id}}">{{activity.title}}: {{activity.description}}</h3>
+                                <p class="activity_authors">{{activity.authors}}</p>
                             {% elsif activity.type == "session" %}
                                 <h3 id="{{activity.id}}">{{activity.title}}</h3>
                             {% endif %}
-                            <p><b>Horário</b>: {{block.start}} - {{block.end}}</p>
+                            <p class="activity_time"><b>Horário</b>: {{block.start}} - {{block.end}}</p>
                             {% if activity.type == "session" %}
                                 {% for paper in activity.papers %}
                                     <p class="paper_title"><b>{{paper.title}}</b></p>
                                     <p>{{paper.authors}}</p>
                                 {% endfor %}
+                            {% elsif activity.type == "tutorial" %}
+                                <p><b>Resumo</b>: {{activity.abstract}}</p>
                             {% endif %}
                         {% if forloop.rindex != 1 %}
                         <hr>
