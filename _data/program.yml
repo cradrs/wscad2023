@@ -7,12 +7,11 @@
       end: "12:00"
       activities:
         - id: "mc1"
-          title: "Minicurso 1"
+          title: "Minicurso 1: Processamento e Análise de Big Data e Aplicação de Algoritmos de Machine Learning através da utilização da Plataforma HPCC Systems"
           type: "tutorial"
           url: "#mc1"
           description:
-             - title: "Processamento e Análise de Big Data e Aplicação de Algoritmos de Machine Learning através da utilização da Plataforma HPCC Systems"
-               authors: "Mauro Marques (Lexis Nexis Risk Solutions), Alysson Oliveira (LexiNexis)"
+          authors: "Mauro Marques (Lexis Nexis Risk Solutions), Alysson Oliveira (LexiNexis)"
         - id: "mc2"
           title: "Minicurso 2"
           type: "tutorial"
