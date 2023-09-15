@@ -17,7 +17,7 @@
           type: "tutorial"
           url: "#mc2"
           description: "Getting up and Running with the OpenMP Cluster Programming Model"
-          authors: "Emilio Francesquini (University of ABC), Herve Yviquel (UNICAMP) Marcio Pereira (UNICAMP), Sandro Rigo (UNICAMP), Guido Araujo (UNICAMP)"
+          authors: "Emilio Francesquini (Universidade Federal do ABC), Herve Yviquel (UNICAMP) Marcio Pereira (UNICAMP), Sandro Rigo (UNICAMP), Guido Araujo (UNICAMP)"
         - id: "mc31"
           title: "Minicurso 3"
           type: "tutorial"
