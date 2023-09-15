@@ -23,7 +23,7 @@
           type: "tutorial"
           url: "#mc31"
           description: "Além do Básico: Otimizando Aplicações Paralelas em Arquiteturas Modernas"
-          authors: "Arthur Lorenzon"
+          authors: "Arthur Lorenzon (UFRGS)"
     - start: "13:30"
       end: "17:00"
       activities:
