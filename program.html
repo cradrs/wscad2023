@@ -84,7 +84,7 @@ permalink: /program/
                         {% for activity in block.activities %}
                             {% if activity.type == "tutorial" %}
                                 <h3 id="{{activity.id}}">{{activity.title}}: {{activity.description}}</h3>
-                                <p id="{{activity.id}}">{{activity.title.authors}}</p>
+                                <p id="{{activity.id}}">{{activity.authors}}</p>
                             {% elsif activity.type == "session" %}
                                 <h3 id="{{activity.id}}">{{activity.title}}</h3>
                             {% endif %}
