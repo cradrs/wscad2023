@@ -170,7 +170,7 @@
             - title: "Analisando a Escalabilidade e a Acurácia de Implementações Paralelas e Distribuídas para a Detecção de Comunidades em Grafos"
               authors: "Gabriel Santos (PUCRS), Cesar De Rose (PUCRS), Kartik Lakhotia (Intel Labs)"
             - title: "Balanceamento de Carga Dinâmico em Ambientes Kubernetes com o Kubernetes Scheduling Extension (KSE)"
-              authors: "Pedro Moritz de Carvalho Neto, Márcio Castro (UFSC), Frank Siqueira (UFSC)"
+              authors: "Pedro Moritz de Carvalho Neto (UFSC), Márcio Castro (UFSC), Frank Siqueira (UFSC)"
         - id: "ctds1"
           title: "WSCAD-CTD 1"
           type: "session"
