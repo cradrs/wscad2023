@@ -54,7 +54,7 @@
       end: "10:30"
       activities:
         - id: "s1"
-          title: "WSCAD 1"
+          title: "WSCAD 1 - Arquitetura e Sistema Operacional"
           type: "session"
           url: "#s1"
           description: "TBD"
@@ -86,7 +86,7 @@
       end: "15:00"
       activities:
         - id: "s2"
-          title: "WSCAD 2"
+          title: "WSCAD 2 - Aprendizado de Máquina e Computação em Borda"
           type: "session"
           url: "#s2"
           description: "TBD"
@@ -120,7 +120,7 @@
       end: "17:00"
       activities:
         - id: "s3"
-          title: "WSCAD 3"
+          title: "WSCAD 3 - GPU e Blockchain"
           type: "session"
           url: "#s3"
           description: "TBD"
@@ -158,7 +158,7 @@
       end: "10:30"
       activities:
         - id: "s4"
-          title: "WSCAD 4"
+          title: "WSCAD 4 - Dimensionamento, Balanceamento e Escalabilidade"
           type: "session"
           url: "#s4"
           description: "TBD"
@@ -188,7 +188,7 @@
       end: "15:00"
       activities:
         - id: "s5"
-          title: "WSCAD 5"
+          title: "WSCAD 5 - Computação em Nuvem"
           type: "session"
           url: "#s5"
           description: "TBD"
@@ -218,7 +218,7 @@
       end: "17:00"
       activities:
         - id: "s6"
-          title: "WSCAD 6"
+          title: "WSCAD 6 - Computação em GPU"
           type: "session"
           url: "#s6"
           description: "TBD"
@@ -240,7 +240,7 @@
       end: "10:30"
       activities:
         - id: "s7"
-          title: "WSCAD 7"
+          title: "WSCAD 7 - Programação e Avaliação de Desempenho"
           type: "session"
           url: "#s7"
           description: "TBD"
