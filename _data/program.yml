@@ -67,6 +67,21 @@
               authors: "Matheus da Silva Alves, Lucas Bragança da Silva, Jeronimo Penha, Ricardo Ferreira, José Augusto Nacif"
             - title: "Instruction-Level Loop Perforation"
               authors: "Daniela Catelan, Ricardo Santos, Liana Duenha, Lucas Wanner"
+        - id: "wics1"
+          title: "WSCAD-WIC 1"
+          type: "session"
+          url: "#wics1"
+          description: "TBD"
+          papers:
+            - title: "Simulador do Algoritmo de Tomasulo com Conjutno de Instruções RISC-V"
+              authors: "Thiago Nolasco (PUC Minas), Danielle Vieira (PUC Minas), João Augusto dos Santos Silva (PUC Minas), Henrique Cota de Freitas (PUC Minas)"
+            - title: "Abordagem para Aprendizado do Simulador gem5 para Pesquisadores Iniciantes"
+              authors: "Pedro Rigotto (PUC Minas), Henrique Cota de Freitas (PUC Minas)"
+            - title: "Performance Evaluation of Intel and AMD Processors using a Simulation-driven Approach with gem5"
+              authors: "João Victor Vieira (PUC Minas), Matheus Souza (PUC Minas), Henrique Cota de Freitas (PUC Minas)"
+            - title: "A Systematic Literature Review on Optimization Techniques for Quantum Computing Compilers"
+              authors: "Camilla Da Rocha (PUC Minas), Ana Luiza Santos (PUC Minas), Matheus Souza (PUC Minas)"
+
     - start: "13:30"
       end: "15:00"
       activities:
