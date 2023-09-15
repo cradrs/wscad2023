@@ -246,7 +246,7 @@
           description: "TBD"
           papers:
             - title: "Structured platform-aware programming"
-              authors: "Francisco Carvalho-Junior (UFC), Julio Mendes Arpeggeo Technologies), Allberson Oliveira (Unilab), Tiago Carneiro (IMEC, Belgium), Claro Sales (UFC), Pedro Sales (UFC)"
+              authors: "Francisco Carvalho-Junior (UFC), Julio Mendes (Arpeggeo Technologies), Allberson Oliveira (Unilab), Tiago Carneiro (IMEC, Belgium), Claro Sales (UFC), Pedro Sales (UFC)"
             - title: "Conversão do NAS Parallel Benchmarks para C++ Standard"
               authors: "Arthur Bianchessi (PUCRS), Leonardo Mallmann (PUCRS), Renato Hoffman (PUCRS), Dalvan Griebler (PUCRS)"
             - title: "Extending the Planning Poker Method to Estimate the Development Effort of Parallel Applications"
