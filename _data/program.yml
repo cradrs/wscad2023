@@ -237,6 +237,15 @@
               authors: "Jeronimo Penha (CEFET/MG), Alysson Kelvim Caetano da Silva (UFV), Olavo Silva (UFV), Icaro Moreira (UFV), José Augusto Nacif (UFV), Ricardo Ferreira (UFV)"
             - title: "A constructive parallel heuristic approach for the MWPSP"
               authors: "Rafael de Castro Silva (UFG), Vinicius Coelho (UFG), Wellington Martins (UFG), Leslie Richard Foulds (UFG), Humberto José Longo (UFG)"          
+        - id: "ceacpad"
+          title: "Reunião CE ACPAD"
+          type: "session"
+          url: "#ceacpad"
+          description: "TBD"
+          papers:
+            - title: "Reunião"
+              authors: "Comissão Especial em Arquitetura de Computadores e Processamento de Alto Desempenho"
+
 -
   id: "fourth-day"
   title: "Sexta-Feira"
