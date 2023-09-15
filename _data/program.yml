@@ -133,10 +133,10 @@
               authors: "Rafael Quirino, Andre Moreira Quirino, Leonardo Andrade Ribeiro, Wellington Martins"
             - title: "The Impact of Hyperledger Fabric Setup on Blockchain Performance when Using Large Volumes of Heterogeneous Medical Data"
               authors: "Ana Spengler, Paulo Lopes de Souza"
-        - id: "weacs3"
+        - id: "weacs1"
           title: "WSCAD-WEAC"
           type: "session"
-          url: "#weacs3"
+          url: "#weacs1"
           description: "TBD"
           papers:
             - title: "TBD"
@@ -171,6 +171,19 @@
               authors: "Gabriel Santos, Cesar De Rose, Kartik Lakhotia"
             - title: "Balanceamento de Carga Dinâmico em Ambientes Kubernetes com o Kubernetes Scheduling Extension (KSE)"
               authors: "Pedro Moritz de Carvalho Neto, Márcio Castro, Frank Siqueira"
+        - id: "ctds1"
+          title: "WSCAD-CTD 1"
+          type: "session"
+          url: "#ctds1"
+          description: "TBD"
+          papers:
+            - title: "TBD"
+              authors: "TBD"
+            - title: "TBD"
+              authors: "TBD"
+            - title: "TBD"
+              authors: "TBD"
+      
     - start: "13:30"
       end: "15:00"
       activities:
@@ -188,6 +201,19 @@
               authors: "Mateus Melo, Roberto Pinto Souto, Lúcia Drummond"
             - title: "Explorando a Variabilidade de Processo para Otimizar a Eficiência Energética em Servidores de Nuvem"
               authors: "Thiago dos Santos Gonçalves, Antonio Carlos Schneider Beck, Arthur Lorenzon"
+        - id: "ctds2"
+          title: "WSCAD-CTD 2"
+          type: "session"
+          url: "#ctds2"
+          description: "TBD"
+          papers:
+            - title: "TBD"
+              authors: "TBD"
+            - title: "TBD"
+              authors: "TBD"
+            - title: "TBD"
+              authors: "TBD"
+
     - start: "15:30"
       end: "17:00"
       activities:
