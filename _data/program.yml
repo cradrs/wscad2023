@@ -207,6 +207,8 @@
               authors: "Mateus Melo (UFF), Roberto Pinto Souto (LNCC), Lúcia Drummond (UFF)"
             - title: "Explorando a Variabilidade de Processo para Otimizar a Eficiência Energética em Servidores de Nuvem"
               authors: "Thiago dos Santos Gonçalves (UFRGS), Antonio Carlos Schneider Beck (UFRGS), Arthur Lorenzon (UFRGS)"
+            - title: "How FaaS with DBaaS performs in different regions: an evaluation by the Orama Framework"
+              authors: "Leonardo Rebouças de Carvalho (UnB), Bruno Kamienski (UnB), Aleteia Araujo (UnB)"
         - id: "ctds2"
           title: "WSCAD-CTD 2"
           type: "session"
