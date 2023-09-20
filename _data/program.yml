@@ -43,7 +43,7 @@
           url: "#mc5"
           description: "Abordagem Gamificada para Introdução em Arquitetura de Hardware Evolutivo"
           authors: "Bernardo Cunha (PUC Minas), Carlos Augusto Martins (PUC Minas)"
-          abstract: "Este minicurso consiste em 3 partes, de aproximadamente 50 minutos. Inicialmente, haverá exposição dos conceitos básicos para compreensão do tema, utilizando abordagem gamificada. Na segunda parte, os participantes colocarão estas novas informações em prática, "hackeando" o sistema evolutivo, experimentando variações nos parâmetros de entrada e de configuração. Por último, será escolhida a melhor abordagem a ser implementada em um próximo encontro (virtual), é demonstrado como o sistema selecionado pode ser implementado utilizando um dispositivo de computação reconfigurável (FPGA)."
+          abstract: "Este minicurso consiste em 3 partes, de aproximadamente 50 minutos. Inicialmente, haverá exposição dos conceitos básicos para compreensão do tema, utilizando abordagem gamificada. Na segunda parte, os participantes colocarão estas novas informações em prática, \"hackeando\" o sistema evolutivo, experimentando variações nos parâmetros de entrada e de configuração. Por último, será escolhida a melhor abordagem a ser implementada em um próximo encontro (virtual), é demonstrado como o sistema selecionado pode ser implementado utilizando um dispositivo de computação reconfigurável (FPGA)."
         - id: "mc6"
           title: "Minicurso 6"
           type: "tutorial"
