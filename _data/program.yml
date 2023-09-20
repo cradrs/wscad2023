@@ -27,7 +27,7 @@
           description: "Além do Básico: Otimizando Aplicações Paralelas em Arquiteturas Modernas"
           authors: "Arthur Lorenzon (UFRGS)"
           abstract: "Este minicurso ensina as ferramentas e técnicas fundamentais para otimizar o desempenho e consumo de energia de aplicações escritas em linguagens C/C++, explorando a combinação de diferentes tipos de processadores, como CPUs e GPUs. O minicurso não exige nenhum conhecimento prévio em interfaces de programação paralela, mas requer alguns conhecimentos básicos em C/C++, sistemas operacionais e arquitetura de computadores."
-    - start: "13:30"
+  - start: "13:30"
       end: "17:00"
       activities:
         - id: "mc4"
