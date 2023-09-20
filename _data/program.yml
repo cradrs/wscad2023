@@ -1,4 +1,4 @@
-- 
+-
   id: "first-day" 
   title: "Terça-Feira"
   date: "17/10/2023"
@@ -87,7 +87,6 @@
               authors: "João Victor Vieira (PUC Minas), Matheus Souza (PUC Minas), Henrique Cota de Freitas (PUC Minas)"
             - title: "A Systematic Literature Review on Optimization Techniques for Quantum Computing Compilers"
               authors: "Camilla Da Rocha (PUC Minas), Ana Luiza Santos (PUC Minas), Matheus Souza (PUC Minas)"
-
     - start: "13:30"
       end: "15:00"
       activities:
@@ -120,8 +119,7 @@
             - title: "Estudo de Desempenho de Duas Estratégias Paralelas Aplicadas ao Ajuste de Parâmetros de um Modelo Matemático da Esclerose Múltipla"
               authors: "Gustavo Gonçalves Silva (UFJF), Matheus Avila Moreira de Paula (UFJF), Barbara de Melo Quintela (UFJF), Marcelo Lobosco (UFJF)"
             - title: "Implementando Elasticidade no Nível do Sistema Operacional"
-              authors: "Guilherme Galante (Unioeste), Valquíria Belusso (Unioeste)"
-              
+              authors: "Guilherme Galante (Unioeste), Valquíria Belusso (Unioeste)"              
     - start: "15:30"
       end: "17:00"
       activities:
@@ -188,8 +186,7 @@
             - title: "TBD"
               authors: "TBD"
             - title: "TBD"
-              authors: "TBD"
-      
+              authors: "TBD"      
     - start: "13:30"
       end: "15:00"
       activities:
@@ -221,7 +218,6 @@
               authors: "TBD"
             - title: "TBD"
               authors: "TBD"
-
     - start: "15:30"
       end: "17:00"
       activities:
@@ -247,7 +243,6 @@
           papers:
             - title: "Reunião"
               authors: "Comissão Especial em Arquitetura de Computadores e Processamento de Alto Desempenho"
-
 -
   id: "fourth-day"
   title: "Sexta-Feira"
