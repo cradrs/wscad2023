@@ -252,7 +252,7 @@
       end: "10:30"
       activities:
         - id: "s7"
-          title: "WSCAD 7 - Programação e Avaliação de Desempenho"
+          title: "WSCAD 7 - Programação, Avaliação e Eficiência"
           type: "session"
           url: "#s7"
           description: "TBD"
