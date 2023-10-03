@@ -64,7 +64,7 @@
           type: "session"
           url: "#s1"
           description: "TBD"
-          chair: "TBD"
+          chair: "Arthur Lorenzon (UFRGS)"
           papers:
             - title: "New Kids on the Unblocking: Strategies to Overcome Blocking Networks"
               authors: "Caio Morais (UFV), Jeronimo Penha (CEFET/MG), José Augusto Nacif (UFV), Ricardo Ferreira (UFV)"
@@ -97,7 +97,7 @@
           type: "session"
           url: "#s2"
           description: "TBD"
-          chair: "TBD"
+          chair: "Márcio Castro (UFSC)"
           papers:
             - title: "Prediction of Reservoir Simulation Jobs Times Using a Real-World SLURM Log"
               authors: "Alan Nunes (UFF), Felipe Portella (PETROBRAS), Paulo Estrela (PETROBRAS), Renzo Malini (PETROBRAS), Bruno Lopes (UFF), Arthur Vasconcelos (UFF), Gabriel Leite (UFF), Lúcia Drummond (UFF)"
@@ -132,7 +132,7 @@
           type: "session"
           url: "#s3"
           description: "TBD"
-          chair: "TBD"
+          chair: "Antonio C. S. Beck Filho (UFRGS)"
           papers:
             - title: "Comparison of scalable distributed algorithms for assessing the kNNG in multi-GPU"
               authors: "Gabriel Orlando (UFSCar), Hermes Senger (UFSCar), Murilo Naldi (UFSCar)"
@@ -172,7 +172,7 @@
           type: "session"
           url: "#s4"
           description: "TBD"
-          chair: "TBD"
+          chair: "Wellington Martins (UFG)"
           papers:
             - title: "GraspCC-LB: Dimensionamento de Recursos para Execução de Workflows em Ambientes de Computação de Alto Desempenho"
               authors: "Luis Alvarenga (CEFET/RJ), Yuri Frota (UFF), Daniel de Oliveira (UFF), Rafaelli Coutinho (CEFET/RJ)"
@@ -267,7 +267,7 @@
           type: "session"
           url: "#s7"
           description: "TBD"
-          chair: "TBD"
+          chair: "Ricardo Ferreira (UFV)"
           papers:
             - title: "Structured platform-aware programming"
               authors: "Francisco Carvalho-Junior (UFC), Julio Mendes (Arpeggeo Technologies), Allberson Oliveira (Unilab), Tiago Carneiro (IMEC, Belgium), Claro Sales (UFC), Pedro Sales (UFC)"
