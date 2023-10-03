@@ -85,9 +85,12 @@ permalink: /program/
                         {% for activity in block.activities %}
                             {% if activity.type == "tutorial" %}
                                 <h3 id="{{activity.id}}">{{activity.title}}: {{activity.description}}</h3>
-                                <p class="activity_authors">{{activity.authors}}</p>
+                                <p class="activity_authors"><b>Autores</b>: {{activity.authors}}</p>
                             {% elsif activity.type == "session" %}
                                 <h3 id="{{activity.id}}">{{activity.title}}</h3>
+                            {% endif %}
+                            {% if activity.chair %}
+                                <p class="activity_chair"><b>Chair</b>: {{activity.chair}}</p>
                             {% endif %}
                             <p class="activity_time"><b>Horário</b>: {{block.start}} - {{block.end}}</p>
                             {% if activity.type == "session" %}
