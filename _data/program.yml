@@ -147,7 +147,7 @@
           type: "session"
           url: "#weacs1"
           description: "TBD"
-          chair: "TBD"
+          chair: "Carlos Augusto Martins (PUC Minas) e Ricardo Menotti (UFSCar)"
           papers:
             - title: "Aprendendo Hierarquia de Memória e a Exploração das Localidades Espacial e Temporal com o Simulador Amnesia"
               authors: "Danielle Vieira (PUC Minas), Thiago Nolasco (PUC Minas), João Augusto dos Santos Silva (PUC Minas), Cecília Bouchardet (PUC Minas), Henrique Cota de Freitas (PUC Minas)"
@@ -187,7 +187,7 @@
           type: "session"
           url: "#ctds1"
           description: "TBD"
-          chair: "TBD"
+          chair: "Alba Melo (UnB) e Rodrigo Righi (Unisinos)"
           papers:
             - title: "Impacts of Parallel Programming on Limited-Resource Hardware"
               authors: "Renato Barreto Hoffmann Filho (PUCRS)"
@@ -220,7 +220,7 @@
           type: "session"
           url: "#ctds2"
           description: "TBD"
-          chair: "TBD"
+          chair: "Alba Melo (UnB) e Rodrigo Righi (Unisinos)"
           papers:
             - title: "Advanced Computational Strategies for Reverse Time Migration"
               authors: "Carlos Barbosa (COPPE/UFRJ)"
