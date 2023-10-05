@@ -78,7 +78,7 @@
           title: "WIC 1 - Simulação e Compilação"
           type: "session"
           url: "#wics1"
-          description: "TBD"
+          description: "Guilherme Galante (Unioeste)"
           chair: "TBD"
           papers:
             - title: "Simulador do Algoritmo de Tomasulo com Conjunto de Instruções RISC-V"
@@ -111,7 +111,7 @@
           title: "WIC 2 - Avaliação e Otimização de Desempenho"
           type: "session"
           url: "#wics2"
-          description: "TBD"
+          description: "Arthur Lorenzon (UFRGS)"
           chair: "TBD"
           papers:
             - title: "Case Study on the Use of Winograd-Based Convolution for CNN Inference in FPGA"
