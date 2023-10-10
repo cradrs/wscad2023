@@ -12,7 +12,7 @@
           url: "#mc1"
           description: "Processamento e Análise de Big Data e Aplicação de Algoritmos de Machine Learning através da utilização da Plataforma HPCC Systems"
           authors: "Mauro Marques (LexisNexis Risk Solutions), Alysson Oliveira (LexisNexis Risk Solutions)"
-          abstract: "Ao longo do minicurso, os participantes terão a oportunidade de conhecer os conceitos essenciais de processamento e análise de volumes massivos de dados (Big Data) e o processo de desenvolvimento de um serviço de consulta fazendo uso da plataforma opensource composta por um Cluster Computacional de Alto Desempenho (HPCC Systems) e, também, a utilização de algoritmos de Aprendizado de Máquina, bem como terão a possibilidade de aplicar os conhecimentos adquiridos em um ambiente de treinamento disponibilizado em sala de aula."
+          abstract: "Ao longo do minicurso, os participantes terão a oportunidade de conhecer os conceitos essenciais de processamento e análise de volumes massivos de dados (Big Data) e o processo de desenvolvimento de um serviço de consulta fazendo uso da plataforma opensource composta por um Cluster Computacional de Alto Desempenho (HPCC Systems) e, também, a utilização de algoritmos de Aprendizado de Máquina, bem como terão a possibilidade de aplicar os conhecimentos adquiridos em um ambiente de treinamento disponibilizado em sala de aula. O curso requer apenas um computador com acesso à Internet e uma conta no GitHub."
         - id: "mc2"
           title: "Minicurso 2"
           type: "tutorial"
