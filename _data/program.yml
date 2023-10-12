@@ -203,7 +203,7 @@
           type: "session"
           url: "#s5"
           description: "TBD"
-          chair: "TBD"
+          chair: "Eduardo Camilo Inacio (UniSenai)"
           papers:
             - title: "Functionalities as a Service - An Approach to Conciliate Interoperability and Data Reduction in E-Health"
               authors: "João Pedro da Costa (UFJF), Mario Dantas (UFJF), José Maria David (UFJF), Fernando Silva (UFJF)"
@@ -236,7 +236,7 @@
           type: "session"
           url: "#s6"
           description: "TBD"
-          chair: "TBD"
+          chair: "Matheus Souza (PUC Minas)"
           papers:
             - title: "KNN paralelo em GPU para grandes volumes de dados com agregação de consultas"
               authors: "Michel Brasil Cordeiro (UFPR), Wagner Zola (UFPR)"
